@@ -1,0 +1,45 @@
+body{
+    background-color: steelblue;
+}
+
+h1{
+    color: rgb(66, 107, 184);
+}
+
+.form_box{
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    width: max-content;
+    border-radius: 10px;
+}
+
+.form_box input{
+    display: block;
+    margin: 15px;
+}
+
+.form_input{
+    margin: auto;
+    width: max-content;
+}
+
+.i_text{
+    width: 220px;
+    height: 30px;
+    border: 1px solid gray;
+}
+
+#btt_form{
+    cursor: pointer;
+    width: 220px;
+    height: 30px;
+    border: none;
+    background-color: rgb(66, 107, 184);
+    color: white;
+}
+
+#btt_form:hover{
+    transition: 0.5s;
+    background-color: cornflowerblue;
+}

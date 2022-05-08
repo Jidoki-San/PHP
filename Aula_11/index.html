@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <title>Cadastro</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo_form.css">
+        <script src="js/validacao.js"></script>
+    </head>
+
+    <body>
+
+        <div class="form_box">
+            <h1>Cadastro de produto</h1>
+            
+            <form action="php/cadastro.php" method="post">
+                <div class="form_input">
+                    <input type="text" name="i_nome" id="i_nome" placeholder="nome" class="i_text" required>
+                    <input type="number" name="i_quantidade" id="i_quantidade" placeholder="quantidade" class="i_text" required>
+                    <input type="text" name="i_preco" id="i_preco" placeholder="preço" class="i_text" required>
+                    <input type="submit" value="cadastrar" id="btt_form" onclick="validacao();">
+                </div>
+            </form>
+
+            <a href="php/leitura.php">Ver cadastros</a>
+        </div>
+
+        
+    </body>
+
+</html>

@@ -1,0 +1,41 @@
+:root{
+    --c_blue_light: cornflowerblue;
+    --c_blue: rgb(25, 49, 92);
+    --c_white: white;
+    --c_green: darkgreen;
+    --c_green_hover: rgb(19, 150, 19);
+    --c_gray: gray;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--c_blue_light);
+}
+
+table{
+    margin: auto;
+    background-color: var(--c_white);
+    border-spacing: 0px;
+}
+
+table td{
+    border-bottom: 1px solid var(--c_gray);
+}
+
+.td_title, .td_footer{
+    text-align: center;
+    height: 50px;
+    background-color: var(--c_blue);
+    color: var(--c_white);
+}
+
+.td_footer a{
+    color: var(--c_white);
+    text-decoration: none;
+}
+
+.td_data{
+    min-width: 300px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+:root{
+    --c_blue: cornflowerblue;
+    --c_white: white;
+    --c_green: darkgreen;
+    --c_green_hover: rgb(19, 150, 19);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--c_blue);
+}
+
+h1{
+    text-align: center;
+}
+
+.form_box{
+    margin: auto;
+    width: max-content;
+    background-color: var(--c_white);
+    padding: 20px;
+}
+
+input{
+    display: block;
+}
+
+#btt_form{
+    cursor: pointer;
+    margin: 20px 0px 15px 0px;
+    width: 280px;
+    height: 30px;
+    border: none;
+    background-color: var(--c_green);
+    color: var(--c_white);
+}
+
+#btt_form:hover{
+    transition: 0.5s;
+    background-color: var(--c_green_hover);
+}
+
+.form_box div{
+    text-align: right;
+}

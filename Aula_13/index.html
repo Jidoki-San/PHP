@@ -1,0 +1,26 @@
+<html>
+
+    <head>
+        <title>Upload de imagens</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <form action="php/upload.php" method="post" enctype="multipart/form-data">
+            <div class="form_box">
+
+                <h1>Upload de imagens</h1>
+
+                <input type="file" name="i_img" required>
+                <input type="submit" value="Salvar" id="btt_form">
+
+                <div>
+                    <a href="php/lista.php">ver imagens</a>
+                </div>
+            
+            </div>
+        </form>
+    </body>
+
+</html>
