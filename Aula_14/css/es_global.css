@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --bg_site: rgb(10, 116, 138);
+    --bg_formbox: #ebeff7;
+    --color_h1: rgb(22, 19, 19);
+    --color_border: ;
+    --light_text: #ffffff;
+    /* --dark_text: ; */
+    --btt_normal: #203a61;
+    --btt_hover: #3560a1;
+}
